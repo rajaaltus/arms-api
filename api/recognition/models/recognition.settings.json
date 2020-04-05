@@ -66,6 +66,9 @@
     },
     "faculty_name": {
       "type": "string"
+    },
+    "rejected_reason": {
+      "type": "string"
     }
   }
 }

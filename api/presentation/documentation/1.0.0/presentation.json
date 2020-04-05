@@ -628,6 +628,9 @@
                 "type": "string"
               }
             }
+          },
+          "rejected_reason": {
+            "type": "string"
           }
         }
       },
@@ -680,6 +683,9 @@
             "type": "string"
           },
           "user": {
+            "type": "string"
+          },
+          "rejected_reason": {
             "type": "string"
           }
         }

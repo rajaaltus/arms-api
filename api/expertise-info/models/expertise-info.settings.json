@@ -11,7 +11,8 @@
   },
   "attributes": {
     "area_of_expertise": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 1000
     },
     "description": {
       "type": "text"

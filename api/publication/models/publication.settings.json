@@ -103,6 +103,9 @@
     },
     "pages": {
       "type": "string"
+    },
+    "rejected_reason": {
+      "type": "string"
     }
   }
 }

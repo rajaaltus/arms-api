@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/01/2020 7:20:36 PM"
+    "x-generation-date": "04/05/2020 2:33:49 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -17203,7 +17203,8 @@
             "type": "string"
           },
           "area_of_expertise": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 1000
           },
           "description": {
             "type": "string"
@@ -17267,7 +17268,8 @@
       "NewExpertise-info": {
         "properties": {
           "area_of_expertise": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 1000
           },
           "description": {
             "type": "string"
@@ -17792,6 +17794,9 @@
                 "type": "string"
               }
             }
+          },
+          "rejected_reason": {
+            "type": "string"
           }
         }
       },
@@ -17843,6 +17848,9 @@
             "type": "string"
           },
           "user": {
+            "type": "string"
+          },
+          "rejected_reason": {
             "type": "string"
           }
         }
@@ -17950,6 +17958,9 @@
           },
           "faculty_name": {
             "type": "string"
+          },
+          "rejected_reason": {
+            "type": "string"
           }
         }
       },
@@ -17991,6 +18002,9 @@
             "type": "string"
           },
           "faculty_name": {
+            "type": "string"
+          },
+          "rejected_reason": {
             "type": "string"
           }
         }
@@ -18576,6 +18590,9 @@
                 "type": "string"
               }
             }
+          },
+          "rejected_reason": {
+            "type": "string"
           }
         }
       },
@@ -18628,6 +18645,9 @@
             "type": "string"
           },
           "user": {
+            "type": "string"
+          },
+          "rejected_reason": {
             "type": "string"
           }
         }
@@ -19020,6 +19040,9 @@
                 "type": "string"
               }
             }
+          },
+          "rejected_reason": {
+            "type": "string"
           }
         }
       },
@@ -19072,6 +19095,9 @@
             "type": "string"
           },
           "user": {
+            "type": "string"
+          },
+          "rejected_reason": {
             "type": "string"
           }
         }
@@ -19234,6 +19260,9 @@
           },
           "pages": {
             "type": "string"
+          },
+          "rejected_reason": {
+            "type": "string"
           }
         }
       },
@@ -19330,6 +19359,9 @@
             "type": "string"
           },
           "pages": {
+            "type": "string"
+          },
+          "rejected_reason": {
             "type": "string"
           }
         }
@@ -19575,6 +19607,9 @@
           },
           "faculty_name": {
             "type": "string"
+          },
+          "rejected_reason": {
+            "type": "string"
           }
         }
       },
@@ -19616,6 +19651,9 @@
             "type": "string"
           },
           "faculty_name": {
+            "type": "string"
+          },
+          "rejected_reason": {
             "type": "string"
           }
         }
@@ -19755,6 +19793,9 @@
           },
           "faculty_name": {
             "type": "string"
+          },
+          "rejected_reason": {
+            "type": "string"
           }
         }
       },
@@ -19828,6 +19869,9 @@
             "type": "string"
           },
           "faculty_name": {
+            "type": "string"
+          },
+          "rejected_reason": {
             "type": "string"
           }
         }
@@ -20039,6 +20083,9 @@
                 "type": "string"
               }
             }
+          },
+          "rejected_reason": {
+            "type": "string"
           }
         }
       },
@@ -20095,6 +20142,9 @@
             "type": "string"
           },
           "user": {
+            "type": "string"
+          },
+          "rejected_reason": {
             "type": "string"
           }
         }
@@ -20208,6 +20258,9 @@
                 "type": "string"
               }
             }
+          },
+          "rejected_reason": {
+            "type": "string"
           }
         }
       },
@@ -20255,6 +20308,9 @@
             "type": "string"
           },
           "user": {
+            "type": "string"
+          },
+          "rejected_reason": {
             "type": "string"
           }
         }

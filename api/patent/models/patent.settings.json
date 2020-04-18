@@ -51,6 +51,12 @@
     },
     "rejected_reason": {
       "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
     }
   }
 }

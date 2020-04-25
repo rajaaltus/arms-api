@@ -61,6 +61,12 @@
     "user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
     }
   }
 }
